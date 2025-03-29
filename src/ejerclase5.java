@@ -1,7 +1,7 @@
 //Realizar un programa que solicite ingresar
 //dos números distintos y muestre por pantalla el mayor de ellos.
 import java.util.Scanner;
-public class ejerclase5 {
+public class Ejerclase5 {
     
     public static void main(String[] args) {
     

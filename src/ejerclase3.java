@@ -3,7 +3,7 @@
 //(Tener en cuenta que condición debe cumplirse para tener dos dígitos
 //un número entero)
 import java.util.Scanner;
-public class ejerclase3 {
+public class Ejerclase3 {
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

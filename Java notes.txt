@@ -1,0 +1,30 @@
+Java notes
+
+Estructura de variables y constantes
+
+   Variables de Java
+	
+	* Tipos de datos
+		- Byte 	(limite entre -128 y 127, valor por defecto 0)  	ejemplo:  age			(pesa 8 bits)
+		- Short (entre -32778 y 32777, valor por defecto 0) 		ejemplo:  temperatura		(pesa 2 Bytes) 
+		- Int 	(entre -2billones hasta 2billones, por defecto 0)	ejemplo:  distance		(pesa 4 Bytes)
+		- Long  (demasiados como pa ponerlo, por defecto 0L)		ejemplo: population		(pesa 8 Bytes)
+		- Float (entre 6 a 7 dijitos decimales, por defecto 0.0f)	ejemplo: weigth			(pesa 4 Bytes)
+		- Double (aprox 15 dijitos decimales, valor por defecto 0.0d) 		 			(pesa 8 Bytes)
+		- Boolean (false o true, palor por defecto false)						(pesa 1 bits)
+		- Char	(palabras, valor por defecto null)			ejemplo: ejemplo		(pesa 2 Bytes)
+
+¿porque un string no esta en los tipos de datos primitivos?
+R/ porque es un objeto
+
+**los tipos de datos primitivos son: Mutables**
+
+- byte: Es el tipo de dato entero más pequeño, usado comúnmente para ahorrar memoria en grandes arrays o cuando se trabaja con datos en bruto a nivel de byte.
+- short: Similar al `int`, pero ocupa menos espacio en memoria. Usado cuando el rango de valores es limitado.
+- int: El tipo de dato entero más comúnmente usado. Adecuado para la mayoría de las operaciones numéricas.
+- long: Se usa cuando se necesita un rango más amplio que `int`. Se deben agregar una "L" al final del valor literal para indicar que es un `long`.
+- float: Se usa para números en punto flotante cuando se necesita menos precisión que `double`. Se deben agregar una "f" al final del valor literal para indicar que es un `float`.
+- double: El tipo de dato de punto flotante más comúnmente usado. Es más preciso que `float`.
+- boolean: Solo puede almacenar dos valores: `true` o `false`. Ideal para condiciones lógicas y control de flujo.
+- char: Puede almacenar un solo carácter Unicode. Se utilizan comillas simples (`j`) para declarar un `char`.
+

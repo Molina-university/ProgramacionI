@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class ejerclase1 {
+public class Ejerclase1 {
 
     public static void main(String[] args) {
         int num1, num2, suma, resta, producto;
